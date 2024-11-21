@@ -1,0 +1,88 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background-size: contain;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+.inputthings{
+    padding: 3px;
+    /* text-decoration: none; */
+}
+*:focus {
+    outline: none;
+}
+hr{
+    width: 300px;
+    /* size: 4px; */
+    /* border-top: 5px solid rgb(102, 20, 235) */
+      
+}
+input{
+    width:80%;
+    /* border-bottom: 1.5px solid rgb(177, 167, 167); */
+    /* padding: 10px; */
+}
+:placeholder-shown{
+padding: 3px;
+}
+.regcontainer{
+    width: 75vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-radius: 12px;
+    padding: 2rem;
+    /* margin: 10%; */
+
+}
+.details{
+    background-color: white;
+    /*  bg-white p-9  */
+    padding: 5%;
+    width: 50%;
+}
+#img{
+    width: 50%;
+}
+@media screen and (max-width:1000px){
+    #img{
+        display: none;
+        
+    }
+    .details{
+        border-radius: 12px;
+        width: 100%;
+        height: 100%;
+    }
+    .regcontainer{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .inputthings{
+        padding: 10px;
+        /* text-decoration: none; */
+    }
+    /* #regbtn{
+        margin-left: 10%;
+    } */
+} 
+
+.outerbutton{
+    /* position: relative; */
+    text-align: center;
+}
+#regbtn{
+    /* position: absolute; */
+      /* left: 25%; */
+}
+#loglink{
+    text-align: center;
+}

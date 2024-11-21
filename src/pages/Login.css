@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.root{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.loginmain{
+    /* background-color: white; */
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    border-radius: 20px;
+}
+.login{
+    padding: 60px 0px 0px 30px;
+    overflow: hidden;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+}
+.heading{
+    font-size: 40px;
+    /* border-bottom: 2px solid purple; */
+    text-decoration: underline 2px purple;
+    margin-bottom: 50px;
+}
+.inputbox{
+    width: 300px;
+    border-bottom: 1.5px solid rgb(177, 167, 167);
+    margin-bottom: 20px;
+}
+.inputbox :hover{
+    border: 2px solid blue;
+}
+.submitbox{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.image{
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/655/234/original/farmers-working-in-farm-cartoons-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+:placeholder-shown{
+    padding: 3px;
+    }
+input{
+        width: 300px;
+        border-bottom: 1.5px solid rgb(177, 167, 167);
+        /* padding: 10px; */
+    }
+    @media screen and (max-width: 1000px){
+        .image{
+            display: none;
+        }
+        .loginmain{
+            width: 100%;
+            height: 100%;
+        }
+        .login{
+            /* width: 80%; */
+            /* border-radius: 10px; */
+            width: 100%;
+            height: 100%;
+            padding: auto;
+            margin: auto;
+        }
+        .root{
+            background-image: none;
+        }
+
+    }

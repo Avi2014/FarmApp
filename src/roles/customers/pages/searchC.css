@@ -1,0 +1,22 @@
+.search-container{
+    position: absolute;
+    left: 15vw;
+    top: 15%;
+}
+.search-input{
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid rgb(177, 167, 167);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.search-input:hover{
+    border: 2px solid blue;
+}
+.searchbtn{
+    background-color: black;
+    color: white;
+    padding: 7px 15px 7px;
+    border-radius: 10px;
+    margin-left: 30px;
+}

@@ -1,0 +1,46 @@
+.post{
+    margin: 5px;}
+p{
+    background:white;
+}
+.post>img:hover{
+    opacity: 0.68;
+    cursor: pointer;
+}
+.stats{
+    align-items: center;
+    align-content: center;
+}
+.connectbtn{
+    /* align-items: center; */
+    align-content: center;
+}
+.profileholder{
+    display: flex;
+    justify-content: center;
+}
+.imgcnt{
+    vertical-align: middle;
+    align-content: center;
+}
+@keyframes division {
+    from{
+        padding-top:20px ;
+    }
+    to{
+        padding-top: 0px;
+    }
+}
+.containerprofile{
+    animation: fadeIn 1s ease;
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

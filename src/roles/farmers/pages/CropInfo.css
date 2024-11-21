@@ -1,0 +1,102 @@
+.crop-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+.crop-container {
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.5s ease;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+.crop-container h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.crop-search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    animation: fadeIn 1s ease;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .crop-search-input {
+    padding: 15px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 18px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  .crop-search-input:focus {
+    border-color: black;
+  }
+  .crop-search-button {
+    padding: 15px 25px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+    transition: background-color 0.3s ease;
+    animation: pulse 1s infinite alternate;
+  }
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  .crop-search-button:hover {
+    background-color:#cfcdcd;
+    color: black;
+  }
+  .crop-info{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .crop-results{
+
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  span{
+    font-weight: 750;
+  }

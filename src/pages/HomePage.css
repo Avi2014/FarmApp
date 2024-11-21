@@ -1,0 +1,78 @@
+.body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.feature {
+    width: 30%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.feature img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.feature h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.cta-1 {
+    width: auto;
+    padding: 4px 16px 4px;
+    font-size: 17px;
+    height: auto;
+    margin-right: 50px;
+    align-self: center;
+    text-align: center;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cta-2 {
+    color: #0095f6;
+    margin-right: 200px;
+    font-size: 17px;
+}
+.cta-1:hover {
+    background-color: #0471b9;
+}
+.cta-2:hover {
+     color: black;
+}
